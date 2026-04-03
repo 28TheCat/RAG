@@ -1,0 +1,13 @@
+{
+  "chart_name": "Weekly Expenses",
+  "currency": "CNY",
+  "data": [
+    {"date": "2026-03-28", "category": "Food", "amount": 125.5},
+    {"date": "2026-03-29", "category": "Transport", "amount": 45.0},
+    {"date": "2026-03-30", "category": "Shopping", "amount": 899.0},
+    {"date": "2026-03-31", "category": "Food", "amount": 98.0},
+    {"date": "2026-04-01", "category": "Entertainment", "amount": 120.0},
+    {"date": "2026-04-02", "category": "Food", "amount": 110.5},
+    {"date": "2026-04-03", "category": "Transport", "amount": 30.0}
+  ]
+}

@@ -6,7 +6,7 @@ from langchain_core.messages import BaseMessage, message_to_dict, messages_from_
 
 
 def get_history(session_id):
-    return FileChatMessageHistory(session_id, "./chat_history")
+    return FileChatMessageHistory(session_id, "chat_history")
 
 
 class FileChatMessageHistory(BaseChatMessageHistory):

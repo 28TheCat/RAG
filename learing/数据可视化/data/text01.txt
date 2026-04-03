@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u_001",
+    "username": "28TheCat",
+    "email": "yating.wang@example.com",
+    "role": "admin",
+    "status": "active",
+    "last_login": "2026-04-03 21:15:00"
+  },
+  {
+    "id": "u_002",
+    "username": "Pikachu_Hunter",
+    "email": "pika@domain.cn",
+    "role": "editor",
+    "status": "inactive",
+    "last_login": "2026-04-02 10:30:45"
+  },
+  {
+    "id": "u_003",
+    "username": "Java_Master",
+    "email": "code_ninja@tech.io",
+    "role": "viewer",
+    "status": "active",
+    "last_login": "2026-04-03 15:20:12"
+  }
+]

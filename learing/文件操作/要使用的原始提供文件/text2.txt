@@ -1,0 +1,6 @@
+这是文件2
+pikaqiu python itcast
+beijing shanghai pikaqiu
+shenzhen guangzhou pikaqiu
+wuhan hangzhou pikaqiu
+zhengzhou bigdata pikaqiu
