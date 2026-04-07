@@ -1,13 +1,10 @@
-import datetime
+from datetime import datetime
 import os
-from webbrowser import Chrome
 from langchain_chroma import Chroma
 from langchain_community.embeddings import DashScopeEmbeddings
-import config
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from zipp.glob import separate
-
 import config_data as config
+
 import hashlib
 
 
@@ -42,7 +39,7 @@ class KnowledgeBaseService(object):
         # 如果文件夹不存在就创建，否则就跳过
         os.makedirs(config.persist_directory, exist_ok=True)
         self.spliter = None
-        self.chroma = Chrome(
+        self.chroma = Chroma(
             collection_name=config.collection_name,
             embedding_function=DashScopeEmbeddings(
                 model="text-embedding-v4"
@@ -81,7 +78,7 @@ class KnowledgeBaseService(object):
         )
 
 
-        self.chroma.persist()
+
 
         # 记录 md5
         save_md5(md5_hex)
@@ -91,4 +88,5 @@ class KnowledgeBaseService(object):
 
 if __name__ == '__main__':
     service=KnowledgeBaseService()
-    service.upload_by_str("heildlsjf","testfile")
+    r= service.upload_by_str("heildlsjf","testfile")
+    print(r)
